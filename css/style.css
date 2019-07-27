@@ -29,6 +29,13 @@ ul {
   height: 38px;
 }
 
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #fff;
+  margin: 10px 0;
+}
+
 /* Header */
 header {
   background: #35424B;
@@ -144,4 +151,37 @@ footer {
   background: #e8491d;
   color: #fff;
   text-align: center;
+}
+
+/* About Page */
+
+
+
+/* Sidebar */
+
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+/* Main-col */
+article#main-col {
+  float: left;
+  width: 65%;
+  margin-top: 10px;
+}
+
+/* Services Page */
+ul#services li {
+  list-style: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: #e6e6e6;
+  margin-bottom: 5px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
 }
